@@ -9,5 +9,5 @@ spec:
   owner: artist-relations-team
   system: artist-engagement-portal
   definition: |
-    $file: "https://petstore.swagger.io/v2/swagger.json"
+    $file:'https://petstore.swagger.io/v2/swagger.json'
     
