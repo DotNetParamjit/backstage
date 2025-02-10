@@ -9,15 +9,5 @@ spec:
   owner: artist-relations-team
   system: artist-engagement-portal
   definition: |
-    openapi: "3.0.0"
-    info:
-      version: 1.0.0
-      title: Artist API
-      license:
-        name: MIT
-    servers:
-      - url: http://artist.spotify.net/v1
-    paths:
-      /artists:
-        get:
-          summary: List all artists
+    $file: "https://petstore.swagger.io/v2/swagger.json"
+    
