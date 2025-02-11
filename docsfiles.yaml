@@ -3,7 +3,8 @@ kind: API
 metadata:
   name: service-with-docs
   description: Retrieve artist details
-  backstage.io/techdocs-ref:dir:.
+  annotations:
+    backstage.io/techdocs-ref:dir:.
 spec:
   type: openapi
   lifecycle: production
