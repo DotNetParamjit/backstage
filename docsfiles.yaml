@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: service-with-docs
+  description: Retrieve artist details
+  backstage.io/techdocs-ref:dir:.
+spec:
+  type: openapi
+  lifecycle: production
+  owner: artist-relations-team
+  
